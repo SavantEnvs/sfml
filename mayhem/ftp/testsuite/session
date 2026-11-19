@@ -1,0 +1,8 @@
+220 Welcome
+331 Password required
+230 Logged in
+257 "/home/user" is current directory
+200 NOOP ok
+250 CWD ok
+215 UNIX Type: L8
+221 Bye

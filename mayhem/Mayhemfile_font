@@ -1,0 +1,9 @@
+project: savantenvs/sfml
+target: font
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/font/testsuite
+cmds:
+  - cmd: /mayhem/font_fuzzer
+    libfuzzer: true
+    timeout: 10

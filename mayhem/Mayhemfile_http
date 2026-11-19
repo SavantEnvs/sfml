@@ -1,0 +1,9 @@
+project: savantenvs/sfml
+target: http
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/http/testsuite
+cmds:
+  - cmd: /mayhem/http_fuzzer
+    libfuzzer: true
+    timeout: 10

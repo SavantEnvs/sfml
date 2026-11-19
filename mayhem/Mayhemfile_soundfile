@@ -1,0 +1,9 @@
+project: savantenvs/sfml
+target: soundfile
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/soundfile/testsuite
+cmds:
+  - cmd: /mayhem/soundfile_fuzzer
+    libfuzzer: true
+    timeout: 10

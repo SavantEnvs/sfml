@@ -1,0 +1,2 @@
+# Fuzz seeds are raw protocol bytes (CRLF line endings matter): never normalize them.
+**/testsuite/** binary

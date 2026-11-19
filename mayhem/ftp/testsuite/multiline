@@ -1,0 +1,12 @@
+220-Welcome
+220-second line
+220 end
+331 pw
+230-a
+ 230 nested
+230 ok
+257 "/a ""quoted"" dir"
+200 ok
+550 no
+215 x
+221 bye
